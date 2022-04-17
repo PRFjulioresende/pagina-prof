@@ -1,0 +1,320 @@
+header{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#0b9dfd;
+    font-size: 16px;
+    color: white;
+    padding-left: 20px;
+}
+
+#a1{
+    text-decoration: none;
+    color: rgb(59, 89, 226);
+    cursor: pointer;
+}
+a:hover{
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#white{
+    color: white;
+}
+
+
+
+
+#green{
+    color: #194913;
+}
+
+
+
+.size20{
+    font-size: 20px;
+}
+
+.size16{
+    font-size: 16px;
+}
+
+.size22{
+    font-size: 22px;
+}
+
+
+
+
+
+
+.container{
+    background-color: rgba(221, 226, 226, 0.534);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    overflow-y: auto;
+    
+}
+
+
+
+#headtop{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #053a59;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0px;
+    color: white;
+
+
+}
+
+
+.orbitron{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.overpass{
+    font-family: 'Overpass', sans-serif;
+}
+
+
+
+.cor{
+    color: #053a59;
+}
+
+
+
+
+
+body{
+    margin: 0px;
+    background-color:  #ffffff54;
+    border: 0px;    
+    justify-content: center;
+    overflow-x: hidden;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+#texto2{
+    display: flex;
+    width: 630px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: end;
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    
+    background-color:  #093942;
+    font-family: roboto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 17px;
+    margin: 0px;
+    color: white;
+}
+ 
+#texto{
+    box-shadow: 0 0 1em rgb(182, 182, 180);
+    background-color: white;
+    display: flex;
+    width: 590px;
+    height: 79px;
+    padding: 20px;
+    border: 2px solid rgb(161, 159, 159) ;
+    justify-content: center;
+    color: rgb(34, 34, 32);
+    font-size: 16px;
+}
+
+
+
+#ufmgimg{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 320px;
+    background-image: url(ufmg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+p{
+    margin: 0%;
+}
+
+
+#divfale{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+#minhafoto{
+padding: 5px;
+margin: 10px;
+width: 106px;
+height: 106px;
+border-radius: 90px;
+border: 1px solid rgb(52, 221, 213);
+box-shadow: 0 0 0.1em rgb(12, 179, 221);
+}
+
+
+
+#alim{
+    justify-content: center;
+}
+
+
+
+
+#footer2{
+    background-color:#0b9dfd;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 20px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    margin: 0px;
+    color: white;
+}
+
+
+
+
+#pf2{
+    color: white;
+    text-align: center;
+    font-size: .875rem;
+}
+
+
+#corpo{
+    margin-bottom: 4px;
+    margin-top: 9px;
+    border: 1px solid rgba(31, 31, 30, 0.26);
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.842);
+    width: 600px;
+    height: min-content;
+    display: flex;
+}
+
+
+
+
+#red{
+    color: red;
+}
+
+
+
+
+
+#minhafoto:hover{
+    box-shadow: 0 0 0.2em rgb(32, 19, 216);
+    }
+
+
+
+
+#apresenta{
+    margin: 10px;
+    text-align: justify;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-family: sans-serif;
+    color: #393a3a;
+}
+
+
+
+#none{
+    font-size: 18px;
+    color: rgb(63, 61, 60);
+}
+
+/*GGFFF
+
+
+non
+
+<p>
+
+Feliz em trabalhar com vocês , espero que seja muito proveitoso. Comecei lecionando em 2014, me formei na UFMG e fui aprovado no concurso de 2017.
+</p>
+
+/
+
+cefet
+
+
+
+
+
+/* //////////////// BARRA DE ROLAGEM PRETA ////////////////////////// */
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-track{
+    
+    background: rgb(231, 230, 230);
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    background:  #133041;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:  red;
+}
+/*  ////////////////  FIM BARRA DE ROLAGEM //////////////////////////  */
